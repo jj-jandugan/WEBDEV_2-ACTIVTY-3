@@ -63,9 +63,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </head>
 
 <body>
-    <!-- When I change the form method to POST and submit the form, the data I enter doesn’t appear in the browser’s URL.
-        The server still receives the information, but it is sent hidden in the request. The difference between GET and
+    <!-- When I change the form method to POST and submit the form, the data I enter doesn’t appear in the browser’s URL.The difference between GET and
         POST is that GET shows the data in the URL and is less secure, while POST keeps the data hidden and is more secure. -->
+    
     <form action="" method="POST">
         <div class="form-field">
             <label>Product Name:</label>
@@ -108,5 +108,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
 </body>
+
 
 </html>
